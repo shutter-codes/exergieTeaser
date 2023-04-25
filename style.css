@@ -120,12 +120,12 @@ body *, body *:before, body *:after {
   -webkit-text-stroke-width: 0.4vmin;
   text-shadow: 0 0 2vmin rgba(193, 27, 31, 0.5);
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title {
     -webkit-text-stroke-width: 0.225vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title {
     text-shadow: 1.125vw;
   }
@@ -149,7 +149,7 @@ body *, body *:before, body *:after {
   vertical-align: top;
   font-size: 28vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title-word-letter {
     font-size: 15.75vw;
   }
@@ -159,7 +159,7 @@ body *, body *:before, body *:after {
   transform: translateY(-2.8%);
   font-size: 34vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title-word-letter-large {
     font-size: 19.125vw;
   }
@@ -174,17 +174,17 @@ body *, body *:before, body *:after {
   border-radius: 0.1vmin;
   box-shadow: 0 0 1.2vmin rgba(193, 27, 31, 0.8), 0 0 0.5vmin rgba(193, 27, 31, 0.8) inset;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .titlebar {
     height: 0.5625vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .titlebar {
     border-width: 0.225vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .titlebar {
     border-radius: 0.05625vw;
   }
@@ -215,7 +215,7 @@ body *, body *:before, body *:after {
   font-weight: bold;
   font-size: 6vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .credits {
     font-size: 3.375vw;
   }
@@ -317,7 +317,7 @@ body *, body *:before, body *:after {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .credits-group-credit, .credits-group-sub {
     margin-bottom: 0vw;
   }
@@ -344,7 +344,7 @@ body *, body *:before, body *:after {
 .credits-group-credit > span {
   font-size: 4.8vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .credits-group-credit > span {
     font-size: 2.7vw;
   }
@@ -352,7 +352,7 @@ body *, body *:before, body *:after {
 .credits-group-sub {
   font-size: 4.6vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .credits-group-sub {
     font-size: 2.5875vw;
   }
@@ -370,17 +370,17 @@ body *, body *:before, body *:after {
   margin: 5vmin;
   background-size: 100% 100%;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .credits-final-link {
     width: 6.75vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .credits-final-link {
     height: 6.75vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .credits-final-link {
     margin: 2.8125vw;
   }
@@ -497,7 +497,7 @@ body *, body *:before, body *:after {
 .letterbox--show {
   display: block;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .letterbox {
     height: 56.25vw;
     width: 100vw;
@@ -562,7 +562,7 @@ body *, body *:before, body *:after {
           animation: scene1 7000ms ease-out forwards;
   transform-origin: 43.85% 40%;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene1 .title-word-letter[data-letter=A] {
     font-size: 945vw;
   }
@@ -571,12 +571,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 120vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 24vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene1 .title-word-letter[data-letter=A] {
     text-shadow: 67.5vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene1 .title-word-letter[data-letter=A] {
     -webkit-text-stroke-width: 13.5vw;
   }
@@ -623,7 +623,7 @@ body *, body *:before, body *:after {
           animation: scene2-letter 3000ms linear forwards;
   transform-origin: 68.4% 40%;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene2 .title-word-letter[data-letter=N] {
     font-size: 315vw;
   }
@@ -632,12 +632,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 40vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 8vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene2 .title-word-letter[data-letter=N] {
     text-shadow: 22.5vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene2 .title-word-letter[data-letter=N] {
     -webkit-text-stroke-width: 4.5vw;
   }
@@ -684,7 +684,7 @@ body *, body *:before, body *:after {
           animation: scene3-r 3000ms linear forwards;
   transform-origin: 75% 27%;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene3 .title-word-letter[data-letter=R] {
     font-size: 362.25vw;
   }
@@ -693,12 +693,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 46vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 9.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene3 .title-word-letter[data-letter=R] {
     text-shadow: 25.875vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene3 .title-word-letter[data-letter=R] {
     -webkit-text-stroke-width: 5.175vw;
   }
@@ -712,7 +712,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene3-i 3000ms linear forwards;
           animation: scene3-i 3000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene3 .title-word-letter[data-letter=I] {
     font-size: 362.25vw;
   }
@@ -721,12 +721,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 46vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 9.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene3 .title-word-letter[data-letter=I] {
     text-shadow: 25.875vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene3 .title-word-letter[data-letter=I] {
     -webkit-text-stroke-width: 5.175vw;
   }
@@ -792,7 +792,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene4-s 3000ms linear forwards;
           animation: scene4-s 3000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene4 .title-word-letter[data-letter=S] {
     font-size: 283.5vw;
   }
@@ -801,12 +801,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 36vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 7.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene4 .title-word-letter[data-letter=S] {
     text-shadow: 20.25vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene4 .title-word-letter[data-letter=S] {
     -webkit-text-stroke-width: 4.05vw;
   }
@@ -820,7 +820,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene4-g 3000ms linear forwards;
           animation: scene4-g 3000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene4 .title-word-letter[data-letter=G] {
     font-size: 283.5vw;
   }
@@ -829,12 +829,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 36vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 7.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene4 .title-word-letter[data-letter=G] {
     text-shadow: 20.25vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene4 .title-word-letter[data-letter=G] {
     -webkit-text-stroke-width: 4.05vw;
   }
@@ -880,7 +880,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene5-r 3000ms linear forwards;
           animation: scene5-r 3000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene5 .title-word-letter[data-letter=R] {
     font-size: 220.5vw;
   }
@@ -889,12 +889,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 28vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 5.6vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene5 .title-word-letter[data-letter=R] {
     text-shadow: 15.75vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene5 .title-word-letter[data-letter=R] {
     -webkit-text-stroke-width: 3.15vw;
   }
@@ -908,7 +908,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene5-s 3000ms linear forwards;
           animation: scene5-s 3000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene5 .title-word-letter[data-letter=S] {
     font-size: 220.5vw;
   }
@@ -917,12 +917,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 28vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 5.6vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene5 .title-word-letter[data-letter=S] {
     text-shadow: 15.75vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene5 .title-word-letter[data-letter=S] {
     -webkit-text-stroke-width: 3.15vw;
   }
@@ -1064,7 +1064,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene6-i 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
           animation: scene6-i 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene6 .title-word-letter[data-letter=I] {
     font-size: 126vw;
   }
@@ -1073,12 +1073,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 16vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 3.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=I] {
     text-shadow: 9vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=I] {
     -webkit-text-stroke-width: 1.8vw;
   }
@@ -1092,7 +1092,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene6-a 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
           animation: scene6-a 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene6 .title-word-letter[data-letter=A] {
     font-size: 126vw;
   }
@@ -1101,12 +1101,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 16vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 3.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=A] {
     text-shadow: 9vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=A] {
     -webkit-text-stroke-width: 1.8vw;
   }
@@ -1120,7 +1120,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene6-t 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
           animation: scene6-t 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene6 .title-word-letter[data-letter=T] {
     font-size: 126vw;
   }
@@ -1129,12 +1129,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 16vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 3.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=T] {
     text-shadow: 9vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=T] {
     -webkit-text-stroke-width: 1.8vw;
   }
@@ -1148,7 +1148,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene6-h 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
           animation: scene6-h 6000ms linear forwards, scene6-fade-out 6000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene6 .title-word-letter[data-letter=H] {
     font-size: 126vw;
   }
@@ -1157,12 +1157,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 16vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 3.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=H] {
     text-shadow: 9vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=H] {
     -webkit-text-stroke-width: 1.8vw;
   }
@@ -1176,7 +1176,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene6-n 6000ms linear forwards, scene6-fade-in 6000ms linear forwards;
           animation: scene6-n 6000ms linear forwards, scene6-fade-in 6000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene6 .title-word-letter[data-letter=N] {
     font-size: 47.25vw;
   }
@@ -1185,12 +1185,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 6vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 1.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=N] {
     text-shadow: 3.375vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=N] {
     -webkit-text-stroke-width: 0.675vw;
   }
@@ -1204,7 +1204,7 @@ body *, body *:before, body *:after {
   -webkit-animation: scene6-g 6000ms linear forwards, scene6-fade-in 6000ms linear forwards;
           animation: scene6-g 6000ms linear forwards, scene6-fade-in 6000ms linear forwards;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--scene6 .title-word-letter[data-letter=G] {
     font-size: 47.25vw;
   }
@@ -1213,12 +1213,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 6vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 1.2vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=G] {
     text-shadow: 3.375vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--scene6 .title-word-letter[data-letter=G] {
     -webkit-text-stroke-width: 0.675vw;
   }
@@ -1514,7 +1514,7 @@ body *, body *:before, body *:after {
 .title--full .title-word-letter[data-letter] {
   font-size: 280vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--full .title-word-letter[data-letter] {
     font-size: 157.5vw;
   }
@@ -1523,12 +1523,12 @@ body *, body *:before, body *:after {
   text-shadow: 0 0 20vmin rgba(193, 27, 31, 0.5);
   -webkit-text-stroke-width: 4vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--full .title-word-letter[data-letter] {
     text-shadow: 11.25vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .textstroke .title--full .title-word-letter[data-letter] {
     -webkit-text-stroke-width: 2.25vw;
   }
@@ -1536,7 +1536,7 @@ body *, body *:before, body *:after {
 .title--full .title-word-letter[data-letter] .title-word-letter-large {
   font-size: 340vmin;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--full .title-word-letter[data-letter] .title-word-letter-large {
     font-size: 191.25vw;
   }
@@ -1605,17 +1605,17 @@ body *, body *:before, body *:after {
   border-radius: 1vmin;
   box-shadow: 0 0 12vmin rgba(193, 27, 31, 0.8), 0 0 5vmin rgba(193, 27, 31, 0.8) inset;
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--full .titlebar {
     height: 5.625vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--full .titlebar {
     border-width: 2.25vw;
   }
 }
-@media screen and (max-aspect-ratio: 16/9) {
+@media screen and (max-aspect-ratio: 1/1) {
   .title--full .titlebar {
     border-radius: 0.5625vw;
   }
